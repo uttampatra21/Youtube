@@ -9,4 +9,18 @@ i{
     color: #fff;
     font-size: 20px;
     cursor: pointer;
+    color: #fff;
+}
+a{
+    color: #fff;
+}
+.youTubeChImg{
+    width: 30px;
+    border-radius: 50px;
+}
+.online{
+    height: 5px;
+    width: 5px;
+    background-color: blue;
+    border-radius: 50px;
 }

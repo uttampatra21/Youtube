@@ -6,11 +6,15 @@
     text-decoration: none;
     font-family: 'poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 img{
     cursor: pointer;
 }
 body{
     background-color: #0d1117;
+    color: #fff;
 }
 nav{
     display: flex;
@@ -18,6 +22,9 @@ nav{
     justify-content: space-between;
     padding: 13px 20px;
     background-color: #161b22;
+    position: sticky;
+    top: 0;
+
 }
 .left{
     display: flex;
@@ -53,4 +60,93 @@ nav{
     display: flex;
     gap: 25px;
     align-items: center;
+}
+/* !Main */
+#main{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.shortCutlinks{
+    padding: 0 35px 0 0;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.shortCutlinks hr{
+    margin: 5px 0;
+}
+.shortCutlinks::-webkit-scrollbar{
+    display: none;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 6px 0;
+    padding: 20px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: .2s;
+    padding: 10px;
+    border-radius: 10px;
+}
+.links a{
+    font-size: 14px;
+}
+.links:hover{
+    background-color: #454545;
+}
+.subscribtion h3{
+    padding: 10px 20px;
+}
+.subsLinks{
+    padding: 0 20px;
+}
+.subsLinks a{
+    font-size: 14px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+.subsLinks a:hover{
+    background-color: #454545;
+}
+/* !Explore */
+.sidebar_four{
+    padding: 20px 0;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0 0 0;
+}
+.explore a{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    font-size: 14px;
+}
+.explore a:hover{
+    background-color: #454545;
+    transition: .2s;
+    border-radius: 10px;
+}
+
+
+
+
+.mainContent{
+    overflow-y: scroll;
+    height: 100vh;
+}
+.mainContent::-webkit-scrollbar{
+    display: none;
 }
