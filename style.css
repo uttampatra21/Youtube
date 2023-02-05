@@ -99,7 +99,8 @@ nav{
 .links:hover{
     background-color: #454545;
 }
-.subscribtion h3{
+.subscribtion h3,
+.sidebar_four h3{
     padding: 10px 20px;
 }
 .subsLinks{
@@ -125,7 +126,7 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 20px 0 0 0;
+    padding: 10px 20px;
 }
 .explore a{
     display: flex;
@@ -139,7 +140,6 @@ nav{
     transition: .2s;
     border-radius: 10px;
 }
-
 
 
 
