@@ -66,6 +66,12 @@ nav{
     display: grid;
     grid-template-columns: 20% 80%;
 }
+.shortCutlinks hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
 .shortCutlinks{
     padding: 0 35px 0 0;
     height: 100vh;
@@ -159,7 +165,25 @@ nav{
     background-color: #454545;
     transition: .2s;
 }
-
+.copyRight{
+    padding: 20px;
+}
+.copyRight a{
+    font-size: 14px;
+    padding: 0 5px;
+    margin: 2px 0;
+    color: #717171;
+}
+.copyright_,
+.terms{
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.copyRight p{
+    font-size: 13px;
+    color: #717171;
+}
 
 .mainContent{
     overflow-y: scroll;
