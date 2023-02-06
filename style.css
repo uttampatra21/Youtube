@@ -63,8 +63,9 @@ nav{
 }
 /* !Main */
 #main{
-    display: grid;
-    grid-template-columns: 20% 80%;
+    /* display: grid;
+    grid-template-columns: 20% 80%; */
+    transition: .5s;
 }
 .shortCutlinks hr{
     border: 0;
@@ -73,6 +74,8 @@ nav{
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 .shortCutlinks{
+    transition: .5s;
+    width: 20%;
     padding: 0 35px 0 0;
     height: 100vh;
     overflow-y: scroll;
@@ -185,7 +188,11 @@ nav{
     color: #717171;
 }
 
+
+
+
 .mainContent{
+    width: 80%;
     overflow-y: scroll;
     height: 100vh;
 }
